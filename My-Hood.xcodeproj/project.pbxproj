@@ -14,6 +14,7 @@
 		150FB6231DAC47E30038DA24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150FB6211DAC47E30038DA24 /* LaunchScreen.storyboard */; };
 		150FB62E1DAC47E30038DA24 /* My_HoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150FB62D1DAC47E30038DA24 /* My_HoodTests.swift */; };
 		150FB6391DAC47E30038DA24 /* My_HoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150FB6381DAC47E30038DA24 /* My_HoodUITests.swift */; };
+		150FB6481DAC48150038DA24 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150FB6471DAC48150038DA24 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		150FB6341DAC47E30038DA24 /* My-HoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My-HoodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		150FB6381DAC47E30038DA24 /* My_HoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_HoodUITests.swift; sourceTree = "<group>"; };
 		150FB63A1DAC47E30038DA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150FB6471DAC48150038DA24 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,14 @@
 		150FB6171DAC47E30038DA24 /* My-Hood */ = {
 			isa = PBXGroup;
 			children = (
+				150FB6461DAC48020038DA24 /* Model */,
 				150FB6181DAC47E30038DA24 /* AppDelegate.swift */,
 				150FB61A1DAC47E30038DA24 /* ViewController.swift */,
 				150FB61C1DAC47E30038DA24 /* Main.storyboard */,
 				150FB61F1DAC47E30038DA24 /* Assets.xcassets */,
 				150FB6211DAC47E30038DA24 /* LaunchScreen.storyboard */,
 				150FB6241DAC47E30038DA24 /* Info.plist */,
+				150FB6471DAC48150038DA24 /* Post.swift */,
 			);
 			path = "My-Hood";
 			sourceTree = "<group>";
@@ -123,6 +127,13 @@
 				150FB63A1DAC47E30038DA24 /* Info.plist */,
 			);
 			path = "My-HoodUITests";
+			sourceTree = "<group>";
+		};
+		150FB6461DAC48020038DA24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150FB6481DAC48150038DA24 /* Post.swift in Sources */,
 				150FB61B1DAC47E30038DA24 /* ViewController.swift in Sources */,
 				150FB6191DAC47E30038DA24 /* AppDelegate.swift in Sources */,
 			);

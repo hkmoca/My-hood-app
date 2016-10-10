@@ -106,7 +106,6 @@
 				150FB61F1DAC47E30038DA24 /* Assets.xcassets */,
 				150FB6211DAC47E30038DA24 /* LaunchScreen.storyboard */,
 				150FB6241DAC47E30038DA24 /* Info.plist */,
-				150FB6471DAC48150038DA24 /* Post.swift */,
 			);
 			path = "My-Hood";
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 		150FB6461DAC48020038DA24 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				150FB6471DAC48150038DA24 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";

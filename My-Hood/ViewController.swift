@@ -49,7 +49,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.configureCell(post)
             return cell
         } else  {
-            var cell = PostCell()
+            let cell = PostCell()
             cell.configureCell(post)
             return cell
         }
